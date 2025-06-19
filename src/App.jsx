@@ -3,7 +3,7 @@ import { Header, Navbar } from "./Container";
 
 function App() {
   return (
-    <div>
+    <div className="bg-[#e0e7ff]">
       <div>
         <Navbar />
         <Header />
