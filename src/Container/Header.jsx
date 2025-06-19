@@ -5,7 +5,7 @@ import logos from "../assets/line.svg";
 function Header() {
   return (
     <div className="flex flex-col-reverse md:flex-row justify-between items-center px-4 md:px-10 py-8">
-      {/* Text Section */}
+   
       <div className="text-center md:text-left py-6 md:py-10 md:mr-[10px]">
         <p className="text-4xl md:text-6xl lg:text-7xl font-serif leading-tight">
           <span className="text-black">Discover more than</span>
@@ -24,7 +24,7 @@ function Header() {
         />
       </div>
 
-      {/* Image Section */}
+  
       <div className="w-full md:w-[50%] flex justify-center md:justify-end">
         <img
           src={logo}
