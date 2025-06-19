@@ -1,5 +1,5 @@
 import React from "react";
-import { Header, Navbar, Input } from "./Container";
+import { Header, Navbar, Input, Blog } from "./Container";
 
 function App() {
   return (
@@ -8,6 +8,7 @@ function App() {
         <Navbar />
         <Header />
         <Input />
+        <Blog />
       </div>
     </div>
   );
