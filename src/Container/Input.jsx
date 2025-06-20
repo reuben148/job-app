@@ -12,7 +12,7 @@ function Input() {
     setLoading(true);
     try {
       const response = await fetch(
-        `http://jsearch.p.rapidapi.com/search?query=${title}%20in%20${location}`,
+        `https://jsearch.p.rapidapi.com/search?query=${title}%20in%20${location}`,
         {
           method: "GET",
           headers: {
