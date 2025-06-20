@@ -1,5 +1,6 @@
 import React from "react";
 import { Header, Navbar, Input, Blog, Blogs } from "./Container";
+import { Footer } from "./Content";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
         <Input />
         <Blog />
         <Blogs />
+        <Footer />
       </div>
     </div>
   );

@@ -4,7 +4,7 @@ import { Button } from "../Content";
 function Blogs() {
   return (
     <div className="flex justify-center px-4 py-8">
-      <div className="w-full max-w-[950px] rounded-br-[50px] rounded-tl-[50px] bg-gradient-to-r from-[#3b82f6] to-[#8b5cf6] border-2 border-blue-500 p-6 md:flex md:justify-between md:items-center">
+      <div className="w-full max-w-[950px] rounded-br-[50px] rounded-tl-[50px] bg-gradient-to-r from-[#3b82f6] to-[#8b5cf6] border-2 border-blue-200 p-6 md:flex md:justify-between md:items-center">
         {/* Text Content */}
         <div className="md:w-1/2">
           <p className="text-4xl md:text-5xl font-mono text-white py-4 px-2 md:px-6">
