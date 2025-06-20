@@ -4,7 +4,7 @@ function Footer() {
   return (
     <footer className="bg-gray-900 text-white py-10 px-6 mt-20">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
-        {/* Logo + Description */}
+
         <div>
           <h2 className="text-2xl font-bold mb-2">JobHuntly</h2>
           <p className="text-gray-400 text-sm">
@@ -13,7 +13,7 @@ function Footer() {
           </p>
         </div>
 
-        {/* Company Info */}
+
         <div>
           <h3 className="font-semibold mb-3 text-lg">Company</h3>
           <ul className="space-y-2 text-sm text-gray-300">
@@ -32,7 +32,7 @@ function Footer() {
           </ul>
         </div>
 
-        {/* Resources */}
+
         <div>
           <h3 className="font-semibold mb-3 text-lg">Resources</h3>
           <ul className="space-y-2 text-sm text-gray-300">
@@ -51,7 +51,7 @@ function Footer() {
           </ul>
         </div>
 
-        {/* Social Links */}
+
         <div>
           <h3 className="font-semibold mb-3 text-lg">Follow Us</h3>
           <div className="flex space-x-4 text-gray-400 text-xl">
@@ -71,7 +71,7 @@ function Footer() {
         </div>
       </div>
 
-      {/* Bottom Bar */}
+
       <div className="text-center mt-10 text-gray-500 text-sm">
         © {new Date().getFullYear()} JobHuntly. All rights reserved.
       </div>
