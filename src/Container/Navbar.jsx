@@ -5,7 +5,7 @@ function Navbar() {
     <div className="flex flex-wrap items-center justify-between px-4 py-2 ">
       {/* Left Logo */}
       <div className="flex items-center gap-2">
-        <i className="fa fa-ravelry fa-2x" aria-hidden="true"></i>
+        <img src="/logos.svg" alt="" />
         <p className="text-2xl font-semibold">JobHuntly</p>
       </div>
 
