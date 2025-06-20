@@ -1,5 +1,5 @@
 import React from "react";
-import { Header, Navbar, Input, Blog } from "./Container";
+import { Header, Navbar, Input, Blog, Blogs } from "./Container";
 
 function App() {
   return (
@@ -9,6 +9,7 @@ function App() {
         <Header />
         <Input />
         <Blog />
+        <Blogs />
       </div>
     </div>
   );
